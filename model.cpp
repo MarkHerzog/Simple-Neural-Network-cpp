@@ -13,7 +13,7 @@ std::vector<int> inputs = {1, 2, 3, 4};
 std::vector<int> targets = {3, 5, 7, 9};
 int main(){
     double w = 0.1;
-    double b = 0.1;
+    double b = 1;
     double learning_rate = 0.1;
     int epochs = 100;
     for(int i = 0; i < epochs; i ++){
